@@ -30,7 +30,7 @@ void WatchyBrain::handleButtonPress() {
 
     RTC.read(currentTime);
     showWatchFace(true);
-  }
+  } else {Watchy::handleButtonPress();}
 
   return;
 }
